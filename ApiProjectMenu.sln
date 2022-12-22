@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiProjectMenu", "ApiProjectMenu\ApiProjectMenu.csproj", "{C91BC96D-4BE9-4FFD-843D-085868305DC6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{F06EF9CA-D0A6-4648-B801-2AB912F7B54D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Monitoring", "Monitoring", "{FE87C642-1F04-48ED-AB29-10EEF92B022C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.MonitoringUI", "API.MonitoringUI\API.MonitoringUI.csproj", "{D6F1ADA5-97D7-4009-BBFC-ACCE5EAF5260}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{E57334F7-8A91-45A6-8B66-856553F1AD15}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C91BC96D-4BE9-4FFD-843D-085868305DC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C91BC96D-4BE9-4FFD-843D-085868305DC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C91BC96D-4BE9-4FFD-843D-085868305DC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C91BC96D-4BE9-4FFD-843D-085868305DC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6F1ADA5-97D7-4009-BBFC-ACCE5EAF5260}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6F1ADA5-97D7-4009-BBFC-ACCE5EAF5260}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6F1ADA5-97D7-4009-BBFC-ACCE5EAF5260}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6F1ADA5-97D7-4009-BBFC-ACCE5EAF5260}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C91BC96D-4BE9-4FFD-843D-085868305DC6} = {F06EF9CA-D0A6-4648-B801-2AB912F7B54D}
+		{F06EF9CA-D0A6-4648-B801-2AB912F7B54D} = {E57334F7-8A91-45A6-8B66-856553F1AD15}
+		{D6F1ADA5-97D7-4009-BBFC-ACCE5EAF5260} = {FE87C642-1F04-48ED-AB29-10EEF92B022C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1B836358-BEEF-4268-A05A-BBA3406D6D79}
+	EndGlobalSection
+EndGlobal
