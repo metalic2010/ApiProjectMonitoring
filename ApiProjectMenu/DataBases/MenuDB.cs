@@ -57,18 +57,5 @@ public class MenuDB
         };
 
         return listMenu;
-
-        /*
-        public static IEnumerable<Menu> GetMenu()
-        {
-            return Enumerable.Range(1, 5).Select(index => new Menu
-            {
-                id = Random.Shared.Next(1, 10),
-                name = Names[Random.Shared.Next(MenuDB.Names.Length)],
-                price = Random.Shared.Next(100, 300),
-                description = Description[Random.Shared.Next(MenuDB.Description.Length)]
-            })
-            .ToArray();
-        }*/
     }
 }

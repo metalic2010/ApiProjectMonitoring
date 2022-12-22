@@ -15,9 +15,7 @@ namespace ApiProjectMenu.HealthChecks
 
         private static Task<bool> IsDatabaseConnectionOkAsync()
         {
-            int t = new Random().Next(2, 4);
-
-            return Task.FromResult(DateTime.Now.Millisecond % t == 0);
+            return Task.FromResult(DateTime.Now.Millisecond % 2 == 0);
         }
     }
 }

@@ -9,9 +9,14 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{F06EF9CA-D0A
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Monitoring", "Monitoring", "{FE87C642-1F04-48ED-AB29-10EEF92B022C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.MonitoringUI", "API.MonitoringUI\API.MonitoringUI.csproj", "{D6F1ADA5-97D7-4009-BBFC-ACCE5EAF5260}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "API.MonitoringUI", "API.MonitoringUI\API.MonitoringUI.csproj", "{D6F1ADA5-97D7-4009-BBFC-ACCE5EAF5260}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{E57334F7-8A91-45A6-8B66-856553F1AD15}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{23EDBD69-DAB0-4118-85DD-FDE2115A9178}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
