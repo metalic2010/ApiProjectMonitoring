@@ -30,7 +30,7 @@
 5. Program - стандратный класс с дополнением строк для HealthChecks
 
 ## Информация по стеку и пакетам
-- C# (ASP .NET Core Web API)
--- [AspNetCore.HealthChecks.UI](https://github.com/Xabaril/AspNetCore.Diagnostics.HealthChecks)
--- [AspNetCore.HealthChecks.UI.InMemory.Storage](https://github.com/Xabaril/AspNetCore.Diagnostics.HealthChecks)
--- [AspNetCore.HealthChecks.UI.Client](https://github.com/Xabaril/AspNetCore.Diagnostics.HealthChecks)
+1. C# (ASP .NET Core Web API) + пакеты:
+* [AspNetCore.HealthChecks.UI](https://github.com/Xabaril/AspNetCore.Diagnostics.HealthChecks)
+* [AspNetCore.HealthChecks.UI.InMemory.Storage](https://github.com/Xabaril/AspNetCore.Diagnostics.HealthChecks)
+* [AspNetCore.HealthChecks.UI.Client](https://github.com/Xabaril/AspNetCore.Diagnostics.HealthChecks)
